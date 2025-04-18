@@ -1,0 +1,19 @@
+# Core ADK support (assumes adk is cloned locally and used via sys.path)
+# No pip install available, handled by sys.path in main.py
+
+# General-purpose dependencies
+openai
+tiktoken
+
+# Audio transcription support
+pydub
+SpeechRecognition
+
+# Email parsing (standard lib in Python)
+# No package needed for `email` module
+
+# Optional audio support (if you plan to run transcription)
+ffmpeg-python
+
+# Env loading (if needed)
+python-dotenv

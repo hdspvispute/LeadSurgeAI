@@ -1,0 +1,31 @@
+<!-- ui/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LeadSurge AI</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>🚀 LeadSurge AI</h1>
+      <p class="subtitle">Paste a customer inquiry, email, or transcript below. Our agents will detect and create a lead automatically.</p>
+
+      <form method="post" action="/process">
+        <textarea name="user_input" rows="10" placeholder="Create opprtunity for abc account $1000 amount">{{ user_input or "Create opprtunity for abc account $1000 amount" }}</textarea>
+        <button type="submit">Run AI Agent</button>
+      </form>
+
+    
+        <div class="output-container">
+          <h2>✅ AI Result</h2>
+          <div class="output">{{ result }} {{ error }}</div>
+          <br/>
+          <a href="/" class="home-button">⬅️ Back to Home</a>
+        </div>
+      
+    </div>
+  </div>
+</body>
+</html>

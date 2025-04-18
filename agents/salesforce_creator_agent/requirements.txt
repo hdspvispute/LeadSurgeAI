@@ -1,0 +1,4 @@
+# If using Salesforce API in future, you can use:
+# simple-salesforce
+requests
+python-dotenv

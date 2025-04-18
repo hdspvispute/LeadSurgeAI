@@ -1,0 +1,18 @@
+# Core Web & API Framework
+fastapi
+uvicorn[standard]
+jinja2
+
+# Google ADK and MCP Tooling
+google-adk
+google-generativeai
+
+# Salesforce (if needed)
+simple-salesforce
+
+# Audio Processing (optional if using audio input)
+pydub
+SpeechRecognition
+
+# Environment Management
+python-dotenv

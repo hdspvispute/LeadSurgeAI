@@ -1,0 +1,13 @@
+# Core LLM tool support (choose one or both depending on use)
+openai
+tiktoken
+
+# Optional: Vertex AI if you're using Google Cloud
+# google-cloud-aiplatform
+
+# Language processing & prompt tools
+langchain
+python-dotenv
+
+# For custom logic / testing
+pydantic
