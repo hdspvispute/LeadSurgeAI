@@ -37,24 +37,10 @@ LeadSurge AI is a multi-agent system built using **Google Agent Development Kit 
 ```bash
 python mcp_server/adk_mcp_server.py
 
-uvicorn ui.main:app --reload
-
-Friday, April 11, 2025
-2:21 PM
-
-curl https://login.salesforce.com/services/oauth2/token ^
-  -d "grant_type=password" ^
-  -d "client_id=3MVG9rZjd7MXFdLihHhvr5DWWGAq3BcI7KIz0jDL51WAXsH0x9grpo2TSn0A5sXyKl_SsrLu7sweJT1s43o6T" ^
-  -d "client_secret=21B846B99558FB886D0590924D656B5CBE37F8FF5AF794BD869AAB2DA27EF012" ^
-  -d "username=prafulla.vispute573@agentforce.com" ^
-  -d "password=Prachit@123pScnAYjGaV5WHY6EIWlOZUuBE"
-
 
 python .\ui\main.py
 
-https://orgfarm-1fb703dbbe-dev-ed.develop.my.salesforce.com/?ec=302&startURL=%2F00Q%2Fo
-prafulla.vispute573@agentforce.com/Prachit@123
-
+Example 1
 Add a new lead named Michael Thompson from ClearPath Consulting. His email is michael.thompson@clearpathco.com.
 
  Example 2:
