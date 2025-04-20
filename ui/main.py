@@ -56,7 +56,7 @@ async def get_agent_async():
   print(f"Fetched {len(tools)} tools from MCP server.")
   root_agent = LlmAgent(
       model='gemini-2.0-flash', # Adjust model name if needed based on availability
-      name='filesystem_assistant',
+      name='LeadSurgeAI',
       instruction='Parse user input, detect lead if it is a qualified lead, and create a Salesforce lead if yes.',
       tools=tools, # Provide the MCP tools to the ADK agent
   )
